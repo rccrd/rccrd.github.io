@@ -906,7 +906,9 @@ a.toolbar {
     padding: 3px;
 }
 
-
+.icon-user.toolbar {
+	/** /display:none;/**/
+}
 
 td.rdficon {
     background: transparent;
