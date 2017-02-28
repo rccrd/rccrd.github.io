@@ -811,12 +811,18 @@ td.pauthor>img {
 
     /** /background-color:#DEEBF9;/**/
     /** /background-color:#E3EFFE;/**/
+
+
+    /** /background-color: #E9EFF4;/**/
 }
 .tbCel2{
     /** /background-color:#edf3ff;/**/
     /**/background-color:#f8faff;/**/
     
     /** /background-color:#f5f9fd;/**/
+
+
+    /** /background-color: #F6F9FB;/**/
 }
 
 
@@ -829,6 +835,7 @@ td.pauthor>img {
     background-color: #edf3ff;
 
     border-top-left-radius: 15px;
+    border-top-left-radius: 9px;
     padding:5px 0 2px 15px;
 
     color:black;
@@ -838,6 +845,7 @@ td.pauthor>img {
 .forums .txtSm.txtR {
     border-top-left-radius: 0;
     border-top-right-radius: 15px;
+    border-top-right-radius: 9px;
     padding:10px 5px 2px 0;
 
 /**/
@@ -853,8 +861,11 @@ td.pauthor>img {
     /** /border-top: 7px #F9F9F9 solid !important;/**/
     /** /border-top: 4px #FCFCFF solid !important;/**/
     /**/border-top: 1px #FCFCFF solid !important;/**/
+
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
 
     box-shadow: 0 2px 1px #EEE;
 }
