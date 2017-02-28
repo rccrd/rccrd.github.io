@@ -763,8 +763,12 @@ BRUMBRUM
 .quote {
     background-color: #FAFBEF;
     
-border-top-right-radius: 15px;
-border-bottom-right-radius: 15px;
+    /** /
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /**/
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
 }
 
 td.pauthor {
@@ -834,7 +838,7 @@ td.pauthor>img {
 */
     background-color: #edf3ff;
 
-    border-top-left-radius: 15px;
+    /** /border-top-left-radius: 15px;/**/
     border-top-left-radius: 9px;
     padding:5px 0 2px 15px;
 
@@ -844,7 +848,7 @@ td.pauthor>img {
 
 .forums .txtSm.txtR {
     border-top-left-radius: 0;
-    border-top-right-radius: 15px;
+    /** /border-top-right-radius: 15px;/**/
     border-top-right-radius: 9px;
     padding:10px 5px 2px 0;
 
@@ -862,8 +866,8 @@ td.pauthor>img {
     /** /border-top: 4px #FCFCFF solid !important;/**/
     /**/border-top: 1px #FCFCFF solid !important;/**/
 
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    /** /border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;/**/
     border-bottom-left-radius: 9px;
     border-bottom-right-radius: 9px;
 
