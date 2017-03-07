@@ -641,15 +641,21 @@ line-height:16pt;
 
 td.capMenu{
 padding:4px;
-padding-left:0px;
 line-height: 14pt;
+
 vertical-align:middle;
-border-top:0px;
-background-color:#e6eeff;
 white-space:nowrap;
+
 font-size: 10pt;
-border:1px #F0F0F0 solid;
-border-bottom:1px #dbdbdb solid;
+
+
+border:none !important;
+
+border-bottom-left-radius: 5px; 
+border-bottom-right-radius: 5px;
+
+background-color:#e6eeff;
+
 }
 
 .capMenu A:link, .capMenu A:visited, .capMenu A:active, .capMenu A:hover{
@@ -839,17 +845,23 @@ td.pauthor>img {
     background-color: #edf3ff;
 
     /** /border-top-left-radius: 15px;/**/
-    border-top-left-radius: 9px;
+    border-top-left-radius: 7px;
     padding:5px 0 2px 15px;
 
     color:black;
 
 }
 
+
+.caption3.txtR.noWrap .txtSm {
+    border: none !important;
+    background-color: transparent !important;
+}
+
 .forums .txtSm.txtR {
     border-top-left-radius: 0;
     /** /border-top-right-radius: 15px;/**/
-    border-top-right-radius: 9px;
+    border-top-right-radius: 7px;
     padding:10px 5px 2px 0;
 
 /**/
@@ -868,10 +880,10 @@ td.pauthor>img {
 
     /** /border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;/**/
-    border-bottom-left-radius: 9px;
-    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 
-    box-shadow: 0 2px 1px #EEE;
+    box-shadow: 0 1px 1px #EEE;
 }
 
 .postedText {
@@ -891,6 +903,7 @@ td.caption3 a:hover { text-decoration: underline; }
 .tbTransparentmb .txtR .txtSm b a {
     text-decoration: none;
     border-radius: 5px;
+    border-radius: 3px;
     padding: 5px 7px;
 
     border: 1px solid #819FDC;
@@ -915,7 +928,9 @@ a.navCell:visited {
 
 .navCell {
     border-radius: 5px;
-    padding: 5px 7px;
+     border-radius: 3px;
+
+   padding: 5px 7px;
 
     border: 1px solid #FFB366;
     background-color: transparent;
@@ -939,7 +954,7 @@ td.capMenu span {
 }
 td.capMenu a  {
     /** /text-transform: uppercase;
-    /**/font-weight: bold;/**/
+    /** /font-weight: bold;/**/
 }
 
 td.capMenu a:link, 
@@ -1066,7 +1081,9 @@ input[type="button"] {
 
 
 .forumsmb .forumCol .forumTitle {
-    border-radius: 8px;
+    border-radius: 7px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     border: none;
     padding: 3px;
     /** /text-shadow: #DDD 0px 1px 1px;/**/
@@ -1074,6 +1091,9 @@ input[type="button"] {
 
 .forumsmb .forumCol .forumTitle.txtC {
     padding: 2px 6px 4px;
+    border-radius: 7px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }
 
 .forumsmb .forumCol .forumTitle strong a {
@@ -1095,7 +1115,8 @@ padding-left: 5px;
 
 
 .textForm.vmiddle {
-    border-radius: 12px;
+    border-radius: 5px;
+    border-radius: 3px;
 }
 
 
@@ -1105,3 +1126,20 @@ padding-left: 5px;
 }
 
 .tcelllast { padding-bottom: 12px; border-color: #EEE;}
+
+
+
+.headingTitle{
+/** /font-family:Arial,'lucida grande',tahoma,verdana,sans-serif;/**/
+/*font-family: Roboto !important;
+font-weight:bold;
+font-size:14pt;
+color:#003A66;
+margin-top:10pt;
+margin-bottom:10pt;
+text-shadow: #CCC 0px 1px 1px;
+*/
+color: #91acda;
+text-shadow: none;
+
+}
