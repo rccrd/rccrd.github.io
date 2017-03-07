@@ -1019,13 +1019,24 @@ td.rdficon {
     display: block;
     float: left;
     width: 60%;
+    width: 55%;
     text-align: left;
     line-height: 135%;
 
+
+  text-overflow: ellipsis;
+
+  /* Required for text-overflow to do anything */
+  white-space: nowrap;
+  overflow: hidden;
     /** /text-shadow: #DDD 0px 1px 1px;/**/
 
 }
 
+
+img[title="Ultimo"] {
+    opacity: .5;
+}
  
 
 .rdficon.tcell {
@@ -1033,7 +1044,13 @@ td.rdficon {
  }
 
 .tbTransparent.txtL.tcell .navCell { opacity: .5; border-color: #819FDC; }
-.tbTransparent.txtL.tcell .navCell:last-child { opacity: 1; border-color: #FFB366; border-color: #0069cc; color: #0069cc !important; }
+.tbTransparent.txtL.tcell .navCell:last-child { 
+    opacity: 1; 
+    border-color: #FFB366; 
+    border-color: #0069cc; 
+    color: #0069cc !important; 
+
+    padding-right: 30px;}
 
 .tbTransparent.txtL.tcell a.navCell:hover {
     color: white !important;
