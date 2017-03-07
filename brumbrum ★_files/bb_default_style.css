@@ -142,7 +142,7 @@ margin-top:1pt;
 color:#898989;
 }
 
-.navCell A:link, .navCell A:visited, .navCell A:hover{
+.navCell a:link, .navCell a:visited, .navCell a:hover{
 color:white;
 }
 
@@ -1008,14 +1008,37 @@ td.rdficon {
     background: transparent;
 }
 
-
+.tbTransparent.txtL.tcell {
+    text-align: right;
+    line-height: 200%;
+}
 .tbTransparent.txtL.tcell strong a {
     text-decoration: none;
-    font-size: 18px;
-    font-weight: normal;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    float: left;
+    width: 60%;
+    text-align: left;
+    line-height: 135%;
+
+    /** /text-shadow: #DDD 0px 1px 1px;/**/
+
 }
 
-.tbTransparent.txtL.tcell .navCell { opacity: .3 }
+ 
+
+.rdficon.tcell {
+    vertical-align: top;
+ }
+
+.tbTransparent.txtL.tcell .navCell { opacity: .5; border-color: #819FDC; }
+.tbTransparent.txtL.tcell .navCell:last-child { opacity: 1; border-color: #FFB366; border-color: #0069cc; color: #0069cc !important; }
+
+.tbTransparent.txtL.tcell a.navCell:hover {
+    color: white !important;
+    background-color: #91ACDA !important;}
+
 
 
 input[type="button"] {
@@ -1023,3 +1046,45 @@ input[type="button"] {
     /** /font-size: 14px;
     /**/font-weight: bold;/**/
 }
+
+
+.forumsmb .forumCol .forumTitle {
+    border-radius: 8px;
+    border: none;
+    padding: 3px;
+    /** /text-shadow: #DDD 0px 1px 1px;/**/
+}
+
+.forumsmb .forumCol .forumTitle.txtC {
+    padding: 2px 6px 4px;
+}
+
+.forumsmb .forumCol .forumTitle strong a {
+text-decoration: none;
+font-weight: bold;
+padding-left: 5px;
+}
+
+.forumsmb .forumCol .fdesc.fdescNum {
+    display: none;
+}
+
+
+.forumsmb .forumCol .fdesc {
+    font-style: italic;
+    padding: 5px 0 16px 12px;
+}
+
+
+
+.textForm.vmiddle {
+    border-radius: 12px;
+}
+
+
+
+.tbTransparentmb td {
+    text-align: right;
+}
+
+.tcelllast { padding-bottom: 12px; border-color: #EEE;}
